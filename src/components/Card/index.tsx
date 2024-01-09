@@ -1,8 +1,8 @@
 import {MaterialIcons} from '@expo/vector-icons'
 import { View, Text } from 'react-native';
-import {styles} from './styles'
+import {HEIGHT, MARGIN_BOTTON, styles} from './styles'
 
-// export const CARD_HEIGHT = HEIGHT + MARGIN_BOTTON;
+export const CARD_HEIGHT = HEIGHT + MARGIN_BOTTON;
 
 export type CardProps = {
     id: number,

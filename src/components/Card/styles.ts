@@ -1,18 +1,25 @@
 import {StyleSheet} from 'react-native'
 
+export const HEIGHT = 68;
+export const MARGIN_BOTTON = 12;
+
 export const styles =  StyleSheet.create({
     
     Container:{
-        backgroundColor:"#1A1A1A",
-        marginBottom:5,
-        padding:10,
-        flex:1,
+        width:'100%',
+        height: HEIGHT,
+        borderRadius: MARGIN_BOTTON,
+        backgroundColor:"#595959",
+        padding:16,
         flexDirection:"row",
         alignItems:"center",
+        justifyContent:'space-between',
+        marginBottom:12,
     },
     Title:{
-       color:"#d7e2f3",
-       flex:1       
+        fontWeight: 'bold',
+        fontSize:18,
+        color:"#fff", 
     },
         
 });
