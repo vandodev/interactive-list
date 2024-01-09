@@ -5,10 +5,10 @@ export const styles =  StyleSheet.create({
         backgroundColor:"#1A1A1A",
         flex:1,
     },
-    List:{        
+    List:{      
+        flex:1,  
         padding:10,
-        backgroundColor:"#000000",
-        marginTop:10,
-        flexDirection:"column",        
+        marginTop:32,
+        position: 'relative'       
     }
 });

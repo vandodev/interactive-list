@@ -13,9 +13,9 @@ export const styles =  StyleSheet.create({
         padding:16,
         flexDirection:"row",
         alignItems:"center",
-        justifyContent:'space-between',
-        marginBottom:12,
+        justifyContent:'space-between',        
     },
+    
     Title:{
         fontWeight: 'bold',
         fontSize:18,
